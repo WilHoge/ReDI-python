@@ -16,7 +16,4 @@ while i*5<max_euler:
 euler.sort()
 print(euler)
 
-sum=0
-for i in euler:
-  sum+=i
-print(sum)
+print("Sum:",sum(euler))
